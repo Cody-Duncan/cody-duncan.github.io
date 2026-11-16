@@ -1,0 +1,21 @@
+@import "variables";
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --hover-bg: #{$color-surface};
+  --hover-text: #{$color-dirty-yellow};
+  --bg: #{$color-space-indigo};
+  --bg-light: #{$color-surface};
+  --text: #{$text-color};
+  --text-light: #{$text-color-bright};
+  --accent: #{$color-orange};
+  --accent-light: #{$color-pink};
+  --accent-text: var(--bg);
+  --border: #{$numbers-warning-tags};
+  --link: #{$color-light-blue};
+  --img-opacity: 0.8;
+}
+
+.external-icon{
+    border: none;
+}

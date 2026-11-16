@@ -1,0 +1,34 @@
+$color-space-indigo: #1A1A2E;
+$color-void: #11111E;
+$color-surface: #2A2A40;
+$color-white: #F5F5F5;
+$color-white-bright: #F9F9F9;
+$color-grey: #888888;
+$color-light-purple: #A78BFA;
+$color-lighter-purple: #bfaef3;
+$color-pink: #E8A0B4;
+$color-light-green: #7EC8A0;
+$color-amber: #D4A76A;
+$color-light-blue: #7EC8E8;
+$color-light-red: #E87E7E;
+$color-orange: #FF8900;
+$color-lighter-orange: #FF9E2C;
+$color-pinkred: #FB2F68;
+$color-dirty-yellow: #FFC635;
+
+
+$background-color: $color-space-indigo;
+$primary-color: $color-white;
+
+$background-color-codeblock: $color-void;
+$panels_and_hover_states: $color-surface;
+$text-color: $color-white;
+$text-color-bright: $color-white-bright;
+$text-color-secondary: $color-grey;
+$accent-links-headers: $color-light-purple;
+$accent-links-headers-light: $color-lighter-purple;
+$strings-values: $color-pink;
+$keywords-types-success: $color-light-green;
+$numbers-warning-tags: $color-amber;
+$info-highlights: $color-light-blue;
+$errors-deletions: $color-light-red;

@@ -1,0 +1,52 @@
+# The URL the site will be built for
+base_url = "https://cody-duncan.github.io/"
+
+theme = "anemone"
+generate_feeds = true
+generate_sitemap = true
+
+taxonomies = [
+    { name = "tags", feed = true, paginate_by = 10 },
+]
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+author = "Cody Duncan (SenkoFox)"
+favicon = "/favicon/favicon.ico"
+list_pages = true              # list section pages on the home page
+twitter_card = true
+display_author = true          # show the author in post headers
+footer_content_license = "Copyright (C) 2026 Cody Duncan, All Rights Reserved"
+footer_content_license_link = "https://github.com/Cody-Duncan/cody-duncan.github.io/blob/main/COPYRIGHT-LICENSE.md"
+
+# Put all your custom variables here
+site_title = "SenkoFox's Blog"
+landing_subtitle = "Cody Duncan's, a.k.a. SenkoFox, Devblog"
+copyright_holder = "Cody Duncan"
+copyright_url = "https://example.com"
+header_nav = [
+    { path = "@/blog/_index.md", key = "nav_blog", name = "Blog" },
+    { path = "@/about.md", key = "nav_about", name = "About" },
+    { url = "https://github.com/Cody-Duncan", name = "GitHub" },
+    { url = "https://bsky.app/profile/senkofox.bsky.social", key= "nav_bsky", icon = "static/images/bluesky.svg", name="BlueSky" },
+]
+
+[extra.colors]
+orange = "#d06315"
+fox_orange = "#f46c22"
+light_blue = "#2b7fc6"
+dark_blue = "#1c4e8c"
+dirty_yellow = "#f8c928"
+pink_red = "#fb2f68"
+mid_purple = "#3f126e"
+dark_purple = "#210340"
