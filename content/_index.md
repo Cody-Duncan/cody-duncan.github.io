@@ -12,4 +12,4 @@ Hello! 👋🦊
 
 Welcome to the front page.
 
-[Link: Blog Articles](/Blog/)
+[Link: Blog Articles](/blog/)

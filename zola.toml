@@ -20,6 +20,10 @@ build_search_index = true
 [markdown.highlighting]
 theme = "catppuccin-mocha"
 
+[translations]
+license_prefix = ""
+license_suffix = ""
+
 [extra]
 author = "Cody Duncan (SenkoFox)"
 favicon = "/favicon/favicon.ico"
