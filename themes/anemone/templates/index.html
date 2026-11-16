@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ section.content | safe }}
+
+{% if config.extra.list_pages %}
+{% set pages = section.pages %}
+{% if paginator %}{% set pages = paginator.pages %}{% endif %}
+{% if pages %}
+<ul class="content-list">
+    {% for page in pages %}
+        {% include "partials/content-listing-item.html" %}
+    {% endfor %}
+</ul>
+{% endif %}
+
+{% if paginator and paginator.number_pagers > 1 %}
+    {% include "partials/pagination.html" %}
+{% endif %}
+{% endif %}
+{% endblock content %}
