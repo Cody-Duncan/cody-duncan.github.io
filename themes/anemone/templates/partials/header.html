@@ -1,7 +1,7 @@
 {% set icon_sprite = get_url(path='icons.svg') %}
 {# Resolve the active language's homepage through the section lookup so
    languages with an auto-generated homepage (no _index.<lang>.md file) work. #}
-{% set language_home_section = get_section(path="_index.md", lang=current_lang, allow_missing=true) %}
+{% set language_home_section = get_section(path="/blog/_index.md", lang=current_lang, allow_missing=true) %}
 {% set language_home = "" %}
 {% if language_home_section %}
     {% set language_home = language_home_section.permalink | replace(from=config.base_url, to="") %}

@@ -7,4 +7,3 @@ toc = false
 +++
 
 # SenkoFox's Blog
-

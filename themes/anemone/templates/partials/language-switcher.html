@@ -59,7 +59,7 @@
                        class="active" aria-current="true">{{ option_name }}</a>
                 </li>
             {% else %}
-                {% set home = get_section(path="_index.md", lang=code, allow_missing=true) %}
+                {% set home = get_section(path="/blog/_index.md", lang=code, allow_missing=true) %}
                 {% if home %}
                     {% set option_name = <i18n.t key="language_name" fallback={code} lang={code} /> %}
                     {% set option_title = option_name ~ " — " ~ homepage_label %}

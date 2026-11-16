@@ -35,6 +35,7 @@ landing_subtitle = "Cody Duncan's, a.k.a. SenkoFox, Devblog"
 copyright_holder = "Cody Duncan"
 copyright_url = "https://example.com"
 header_nav = [
+    { path = "@/blog/_index.md", key = "nav_home" },
     { path = "@/blog/_index.md", key = "nav_blog", name = "Blog" },
     { path = "@/about.md", key = "nav_about", name = "About" },
     { url = "https://github.com/Cody-Duncan", name = "GitHub" },
